@@ -36,7 +36,7 @@ const App = () => {
   };
 
   return (
-    <div className="app">
+    <div>
       <h1>Reading List</h1>
       <BookList books={books} onDelete={DeleteBookById} onEdit={editBook} />
       <BookCreate onCreate={CreateBook} />
