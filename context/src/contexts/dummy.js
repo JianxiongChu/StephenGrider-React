@@ -6,7 +6,7 @@ const Provider = ({ children }) => {
 
   const sharedValue = {
     dummy: dummy,
-    changeDummy: setDummy("Dummy is changed!"),
+    changeDummy: () => setDummy("Dummy is changed!"),
   };
   return (
     <DummyContext.Provider value={sharedValue}>
