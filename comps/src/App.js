@@ -4,19 +4,19 @@ function App() {
   return (
     <div className="App">
       <div>
-        <Button text="This is not the default msg;)"/>
+        <Button children="This is not the default msg;)" primary outlined rounded />
       </div>
       <div>
-        <Button />
+        <Button secondary />
       </div>
       <div>
-        <Button />
+        <Button success rounded/>
       </div>
       <div>
-        <Button />
+        <Button warning rounded/>
       </div>
       <div>
-        <Button />
+        <Button danger rounded/>
       </div>
     </div>
   );
