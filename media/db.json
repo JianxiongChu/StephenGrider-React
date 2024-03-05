@@ -5,26 +5,20 @@
       "name": "Myra"
     },
     {
-      "name": "Frankie Schowalter",
-      "id": 2
-    },
-    {
-      "name": "Eugene Nitzsche",
+      "name": "Elsie Price",
       "id": 3
     },
     {
-      "name": "Marianne Mills",
+      "name": "Harold Strosin",
       "id": 4
-    },
-    {
-      "name": "Gene Bins",
-      "id": 5
-    },
-    {
-      "name": "Mrs. Felicia Emmerich",
-      "id": 6
     }
   ],
-  "albums": [],
+  "albums": [
+    {
+      "id": 10,
+      "title": "Hiking Trip",
+      "userId": 1
+    }
+  ],
   "photos": []
 }
